@@ -9,7 +9,7 @@ let numeroDematerias = parseInt(prompt("¿Cuántas materias tienes?"));
 // Declaramos el arreglo de calificaciones
 let calificaciones= [];
 for(let i = 1; i <= numeroDematerias ; i++){
-    let calificaciónDeMateria = parseFloat(prompt(`¿Cuál es la calificación de la materia ${i} ?`));
+    let calificaciónDeMateria = parseFloat(prompt(`¿Cuál es la calificación en un rago de 0-100 de la materia ${i} ?`));
     //Con el método push agregamos al arreglo  la calificación ingresada por el usuario
     calificaciones.push(calificaciónDeMateria);
 }
