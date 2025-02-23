@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+        <h1>Caja de Comentarios (Simple Comment Box)</h1>
+    </header>
+
+    <main>
+        <form action="" id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" rows="5"></textarea>
+            <button type="submit" id="enviar" onclick="agregarComentario()">Enviar</button>
+        </form>
+
+        <div class="divcomentarios">
+            <h2>Comentarios:</h2>
+            <ul id="comentarios">
+                
+
+                
+            </ul>
+            <button type="submit" id="eliminar" onclick="EliminarComentario()">Eliminar</button>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="app.js">
+
+    </script>
+    
+</body>
+</html>
