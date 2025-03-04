@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #111016;
+    color: #666473;
+}
+
+.passwordGenerado{
+    background-color: #24232b;
+    display: flex;
+    font-size: 1.5rem;
+    width: 25%;
+    height: 7%;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    align-items:center ;
+}
+
+textarea{
+    border: none;
+    background-color: transparent;
+}
+
+.copiarImg{
+    position: relative;
+    right: -75px;
+    height: 50%;
+}
+
+form{
+    background-color: #24232b;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    width: 25%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: .7rem;
+}
+
+.caracteres{
+    display: flex;;
+    justify-content: space-between;
+    
+}
+
+.valor{
+    width: 10%;
+    color: #a7feb0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.barraRange{
+    margin-bottom: 15px;
+}
+
+h3 input{
+    margin-bottom: 15px;
+}
+
+.areaPw{
+    font-size: 1.2rem;
+    color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.strength{
+    background-color: #18171f;
+    color: #696679;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.nivSeguridadPw{
+    color: #a4ffaf;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a4ffaf;
+    color: black;
+    height: 85px;
+}

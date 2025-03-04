@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        GENERADOR DE PASSWORDS
+    </h1>
+
+    <div  class="passwordGenerado">
+        <textarea class="areaPw" name="" id="textAreaContraseña" rows="2" cols="30"></textarea>
+        <img src="./img/copiar.png" alt="" class="copiarImg" id="copiar">
+    </div>
+    
+    <form  id="formulario">
+        <div class="caracteres">
+            <h3>Character Lenght</h3>
+            <textarea  class="valor" name="" id="valorRango"></textarea>
+        </div>
+       
+        <input class="barraRange" type="range" id="rango" min="4" max="30" value="1">
+        <h3>
+            <input type="checkbox" id="mayusculas" >
+            Include UpperCase Letters
+        </h3>
+        
+        <h3>
+            <input type="checkbox" id="minusculas">
+            Include LowerCase Letters
+        </h3>
+        
+        <h3>
+            <input type="checkbox" id="numeros">
+            Include Numbers
+        </h3>
+        
+        <h3>
+            <input type="checkbox" id="simbolos">
+            Include Symbols
+        </h3>
+        
+   
+        <div class="strength">
+            <h2>
+                STRENGTH
+            </h2>
+            <span>
+                
+                <p class="nivSeguridadPw" id="nivelSeguridadGrafico">
+
+                </p>
+            </span>
+        </div>
+
+        <button  type="submit" id="botonGenerar"> 
+            GENERATE  
+            <img class="flechaImg" src="./img/flecha-correcta.png" alt="">
+        </button>
+    </form>
+
+
+
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
