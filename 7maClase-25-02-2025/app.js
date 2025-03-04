@@ -104,7 +104,7 @@ function pwCompleta(){
     let nivelSeguridadPW = '';
     if(password.length <=8){
         nivelSeguridadPW = 'Baja';
-    }else if(password.length >= 9 && password.length < 12){
+    }else if(password.length >= 9 && password.length <= 12){
         nivelSeguridadPW = 'Media';
     }else if(password.length >= 13){
         nivelSeguridadPW = 'Alta';
