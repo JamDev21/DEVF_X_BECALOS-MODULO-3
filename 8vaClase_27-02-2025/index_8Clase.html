@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+        <h1>Comentarios libros</h1>
+    </header>
+
+    <main>
+        <form action="" id="formulario">
+            <label for="nombreLibro">Nombre del libro:</label>
+            <input type="text" name="nombre" id="nombre">
+            <label for="autor">Autor:</label>
+            <input type="autor" name="autor" id="autor">
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" rows="5"></textarea>
+            <button type="submit" id="enviar" onclick="agregarComentario()">Enviar</button>
+        </form>
+
+        <h2>Comentarios:</h2>
+        <div class="contenedor" id="content">
+            
+        </div>
+        <button type="submit" id="eliminar" onclick="EliminarComentario()">Eliminar</button>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./app.js">
+
+    </script>
+    
+</body>
+</html>
+    
+    
